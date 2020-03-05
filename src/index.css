@@ -39,37 +39,37 @@ h1 {
 }
 
 #drum-Q {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/snare.jpg');
+  background-image: url('./assets/snare.jpg');
 }
 
 #drum-W {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/cross_stick.jpg');
+  background-image: url('./assets/cross_stick.jpg');
 }
 
 #drum-E {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/bass_drum.jpg');
+  background-image: url('./assets/bass_drum.jpg');
 }
 
 #drum-A {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/closed_high_hat.jpg');
+  background-image: url('./assets/closed_high_hat.jpg');
 }
 
 #drum-S {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/open_high_hat.jpg');
+  background-image: url('./assets/open_high_hat.jpg');
 }
 
 #drum-D {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/cymbal.jpg');
+  background-image: url('./assets/cymbal.jpg');
 }
 
 #drum-Z {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/kick_hat.jpg');
+  background-image: url('./assets/kick_hat.jpg');
 }
 
 #drum-X {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/kick.jpg');
+  background-image: url('./assets/kick.jpg');
 }
 
 #drum-C {
-  background-image: url('https://davidmorton0.github.io/drum-machine/images/cymbal_2.jpg');
+  background-image: url('./assets/cymbal_2.jpg');
 }
