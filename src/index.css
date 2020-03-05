@@ -1,13 +1,75 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Trade Winds', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+}
+
+.keyText {
+  width: 3vw;
+  background-color: powderblue;
+  color: Black;
+  border: solid black 1px;
+  margin: 0.5vw auto;
+}
+
+
+#drum-machine {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-color: powderblue;
+  padding: 15px;
+  margin: auto;
+  width: 800px;
+}
+
+.drum-pad {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  padding: 0px;
+  font-size: 3vh;
+  text-align: center;
+  background-size: cover;
+  height: 250px;
+}
+
+#display {
+  height: 5vw;
+}
+
+#drum-Q {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/snare.jpg');
+}
+
+#drum-W {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/cross_stick.jpg');
+}
+
+#drum-E {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/bass_drum.jpg');
+}
+
+#drum-A {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/closed_high_hat.jpg');
+}
+
+#drum-S {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/open_high_hat.jpg');
+}
+
+#drum-D {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/cymbal.jpg');
+}
+
+#drum-Z {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/kick_hat.jpg');
+}
+
+#drum-X {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/kick.jpg');
+}
+
+#drum-C {
+  background-image: url('https://davidmorton0.github.io/drum-machine/images/cymbal_2.jpg');
 }
