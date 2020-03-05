@@ -1,52 +1,61 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import soundfile1 from './assets/audio/Brk_Snr.mp3'
+import soundfile2 from './assets/audio/side_stick_1.mp3'
+import soundfile3 from './assets/audio/punchy_kick_1.mp3'
+import soundfile4 from './assets/audio/Bld_H1.mp3'
+import soundfile5 from './assets/audio/Dry_Ohh.mp3'
+import soundfile6 from './assets/audio/Dsc_Oh.mp3'
+import soundfile7 from './assets/audio/Kick_n_Hat.mp3'
+import soundfile8 from './assets/audio/RP4_KICK_1.mp3'
+import soundfile9 from './assets/audio/Cev_H2.mp3'
 import * as serviceWorker from './serviceWorker';
 
 var drumSounds = {
   Q: {
     text: 'Q',
-    url: './assets/audio/Brk_Snr.mp3',
+    url: soundfile1,
     description: 'Snare'
   },
   W: {
     text: 'W',
-    url: './assets/audio/side_stick_1.mp3',
+    url: soundfile2,
     description: 'Side Stick'
   },
   E: {
     text: 'E',
-    url: './assets/audio/punchy_kick_1.mp3',
+    url: soundfile3,
     description: 'Punchy Kick'
   },
   A: {
     text: 'A',
-    url: './assets/audio/Bld_H1.mp3',
+    url: soundfile4,
     description: 'Closed High Hat'
   },
   S: {
     text: 'S',
-    url: './assets/audio/Dry_Ohh.mp3',
+    url: soundfile5,
     description: 'Open High Hat'
   },
   D: {
     text: 'D',
-    url: './assets/audio/Dsc_Oh.mp3',
+    url: soundfile6,
     description: 'Dsc Oh'
   },
   Z: {
     text: 'Z',
-    url: './assets/audio/Kick_n_Hat.mp3',
+    url: soundfile7,
     description: 'Kick n Hat'
   },
   X: {
     text: 'X',
-    url: './assets/audio/RP4_KICK_1.mp3',
+    url: soundfile8,
     description: 'Kick'
   },
   C: {
     text: 'C',
-    url: './assets/audio/Cev_H2.mp3',
+    url: soundfile9,
     description: 'Cymbal'
   }
 }
